@@ -1,0 +1,189 @@
+[
+  {
+      "id": 1605042,
+      "curso": "LÓGICA DE PROGRAMAÇÃO",
+      "sala": "2",
+      "turno": "MANHÃ",
+      "instrutor": "Samuel Hugo Breno da Cruz",
+      "dataInicial": "2018-01-08 00:00:00",
+      "dataFinal": "2018-01-12 00:00:00",
+      "nroAlunos": 7,
+      "situacao": "F"
+  },
+  {
+      "id": 1605046,
+      "curso": "INTRODUÇÃO A BANCO DE DADOS E SQL",
+      "sala": "1",
+      "turno": "NOITE",
+      "instrutor": "Samuel Hugo Breno da Cruz",
+      "dataInicial": "2018-01-24 00:00:00",
+      "dataFinal": "2018-01-30 00:00:00",
+      "nroAlunos": 14,
+      "situacao": "C"
+  },
+  {
+      "id": 1605014,
+      "curso": "JAVA - FUNDAMENTOS DA LINGUAGEM",
+      "sala": "3",
+      "turno": "NOITE",
+      "instrutor": "Josefa Isabelle Dias",
+      "dataInicial": "2018-01-08 00:00:00",
+      "dataFinal": "2018-01-17 00:00:00",
+      "nroAlunos": 6,
+      "situacao": "F"
+  },
+  {
+      "id": 1605198,
+      "curso": "CERTIFICAÇÃO ITIL V3",
+      "sala": "1",
+      "turno": "MANHÃ",
+      "instrutor": "Luana Joana Débora Jesus",
+      "dataInicial": "2018-01-26 00:00:00",
+      "dataFinal": "2018-01-26 00:00:00",
+      "nroAlunos": 1,
+      "situacao": "C"
+  },
+  {
+      "id": 1605200,
+      "curso": "CERTIFICAÇÃO ITIL V3",
+      "sala": "2",
+      "turno": "MANHÃ",
+      "instrutor": "Luana Joana Débora Jesus",
+      "dataInicial": "2018-01-24 00:00:00",
+      "dataFinal": "2018-01-24 00:00:00",
+      "nroAlunos": 1,
+      "situacao": "A"
+  },
+  {
+      "id": 1605103,
+      "curso": "CERTIFICAÇÃO ITIL V3",
+      "sala": "2",
+      "turno": "TARDE",
+      "instrutor": "Luana Joana Débora Jesus",
+      "dataInicial": "2018-01-16 00:00:00",
+      "dataFinal": "2018-01-16 00:00:00",
+      "nroAlunos": 1,
+      "situacao": "C"
+  },
+  {
+      "id": 1605053,
+      "curso": "NODE.JS",
+      "sala": "2",
+      "turno": "NOITE",
+      "instrutor": "Marcos Vinicius Rafael Lopes",
+      "dataInicial": "2018-01-22 00:00:00",
+      "dataFinal": "2018-01-26 00:00:00",
+      "nroAlunos": 7,
+      "situacao": "C"
+  },
+  {
+      "id": 1605043,
+      "curso": "HTML, CSS E JAVASCRIPT",
+      "sala": "1",
+      "turno": "NOITE",
+      "instrutor": "Heitor Nicolas da Rocha",
+      "dataInicial": "2018-01-10 00:00:00",
+      "dataFinal": "2018-01-23 00:00:00",
+      "nroAlunos": 5,
+      "situacao": "F"
+  },
+  {
+      "id": 1605044,
+      "curso": "HTML, CSS E JAVASCRIPT",
+      "sala": "2",
+      "turno": "MANHÃ",
+      "instrutor": "Natália Milena Carolina Martins",
+      "dataInicial": "2018-01-15 00:00:00",
+      "dataFinal": "2018-01-26 00:00:00",
+      "nroAlunos": 5,
+      "situacao": "C"
+  },
+  {
+      "id": 1605054,
+      "curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
+      "sala": "5",
+      "turno": "NOITE",
+      "instrutor": "Carolina Raquel Nogueira",
+      "dataInicial": "2018-01-17 00:00:00",
+      "dataFinal": "2018-01-24 00:00:00",
+      "nroAlunos": 3,
+      "situacao": "F"
+  },
+  {
+      "id": 1605066,
+      "curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
+      "sala": "1",
+      "turno": "MANHÃ",
+      "instrutor": "Gabrielly Melissa Marli Sales",
+      "dataInicial": "2018-01-08 00:00:00",
+      "dataFinal": "2018-01-15 00:00:00",
+      "nroAlunos": 4,
+      "situacao": "F"
+  },
+  {
+      "id": 1605067,
+      "curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
+      "sala": "5",
+      "turno": "NOITE",
+      "instrutor": "Carolina Raquel Nogueira",
+      "dataInicial": "2018-01-23 00:00:00",
+      "dataFinal": "2018-01-31 00:00:00",
+      "nroAlunos": 3,
+      "situacao": "C"
+  },
+  {
+      "id": 1605068,
+      "curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
+      "sala": "1",
+      "turno": "MANHÃ",
+      "instrutor": "Gabrielly Melissa Marli Sales",
+      "dataInicial": "2018-01-17 00:00:00",
+      "dataFinal": "2018-01-24 00:00:00",
+      "nroAlunos": 4,
+      "situacao": "F"
+  },
+  {
+      "id": 1605050,
+      "curso": "MONGODB E NOSQL",
+      "sala": "2",
+      "turno": "NOITE",
+      "instrutor": "Eduardo Rodrigo Hugo Carvalho",
+      "dataInicial": "2018-01-29 00:00:00",
+      "dataFinal": "2018-02-01 00:00:00",
+      "nroAlunos": 4,
+      "situacao": "C"
+  },
+  {
+      "id": 1605034,
+      "curso": "JAVA - DESENVOLVENDO COM TDD",
+      "sala": "3",
+      "turno": "NOITE",
+      "instrutor": "Josefa Isabelle Dias",
+      "dataInicial": "2018-01-18 00:00:00",
+      "dataFinal": "2018-01-23 00:00:00",
+      "nroAlunos": 3,
+      "situacao": "F"
+  },
+  {
+      "id": 1605094,
+      "curso": "ANGULAR 4",
+      "sala": "2",
+      "turno": "NOITE",
+      "instrutor": "Márcio Thiago da Costa",
+      "dataInicial": "2018-01-15 00:00:00",
+      "dataFinal": "2018-01-19 00:00:00",
+      "nroAlunos": 8,
+      "situacao": "F"
+  },
+  {
+      "id": 1605098,
+      "curso": "JAVASCRIPT PRO",
+      "sala": "2",
+      "turno": "NOITE",
+      "instrutor": "Márcio Thiago da Costa",
+      "dataInicial": "2018-01-08 00:00:00",
+      "dataFinal": "2018-01-12 00:00:00",
+      "nroAlunos": 7,
+      "situacao": "F"
+  }
+]

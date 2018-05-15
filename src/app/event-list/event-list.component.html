@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let event of events">
+    {{event.curso | camelcase}}{{event.instrutor | camelcase}}{{event.sala}}
+    {{event.turno | camelcase}}
+    {{event.nroAlunos}}
+    {{event.situacao}}
+    {{event.dataInicial | date:"dd/MM/yy"}}
+    {{event.dataFinal | date:"dd/MM/yy"}}
+  </li>
+</ul>

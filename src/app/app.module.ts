@@ -11,6 +11,8 @@ import { EventDetailComponent } from './event-detail/event-detail.component';
 import { EventCardComponent } from './event-card/event-card.component';
 import { CamelcasePipe } from './camelcase.pipe';
 import { HttpClientModule } from '@angular/common/http';
+//import { TooltipModule } from "ngx-bootstrap/tooltip";
+import { ModalModule } from "ngx-bootstrap/modal";
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    //TooltipModule.forRoot(),
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,10 +1,31 @@
-<ul>
-  <li *ngFor="let event of events">
-    {{event.curso | camelcase}}{{event.instrutor | camelcase}}{{event.sala}}
-    {{event.turno | camelcase}}
-    {{event.nroAlunos}}
-    {{event.situacao}}
-    {{event.dataInicial | date:"dd/MM/yy"}}
-    {{event.dataFinal | date:"dd/MM/yy"}}
-  </li>
-</ul>
+<section class='container-fluid' *ngIf='events'>
+  <div class="col-md-10 offset-md-1">
+    <table class="table table-bordered table-striped table-condensed">
+      <thead class="text-nowrap">
+        <tr>
+          <th style="width: 35%">Curso</th>
+          <th style="width: 20%">Instrutor</th>
+          <th>Sala</th>
+          <th>Turno</th>
+          <th>Sit.</th>
+          <th>Início</th>
+          <th>Final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of events"
+          (click)="onSelect(event)"
+          [class.selected]="event === selectedEvent">
+          <td>{{event.curso | camelcase}}</td>
+          <td>{{event.instrutor | camelcase}}</td>
+          <td>{{event.sala}}</td>
+          <td>{{event.turno | camelcase}}</td>
+          <td>{{event.situacao}}</td>
+          <td>{{event.dataInicial | date:"dd/MM/yy"}}</td>
+          <td>{{event.dataFinal | date:"dd/MM/yy"}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<!--app-event-detail bsModal [event]="selectedEvent"></app-event-detail-->

@@ -1,6 +1,6 @@
 [
 	{
-		"turma": 1604974,
+		"id": 1604974,
 		"curso": "ORIENTAÇÃO A OBJETOS",
 		"sala": "1",
 		"turno": "NOITE",
@@ -8,21 +8,10 @@
 		"dataInicial": "2017-10-05 00:00:00",
 		"dataFinal": "2017-10-09 00:00:00",
 		"nroAlunos": 10,
-		"alunos": [
-			"DIOGO LEMOS GUEDES",
-			"MARCOS DAL POZZOLO",
-			"VINICIUS ARONNA CRUZ",
-			"ANGÉLICA KUFFEL DA SILVA",
-			"JOÃO PEDRO ZIEPPE DA ROCHA",
-			"RENATA DUARTE PLENTZ",
-			"FABIO DA SILVA",
-			"RICARDO DE MELLO CARDOSO",
-			"MAURICIO MANGHI DOS SANTOS",
-			"CARLOS ROBERTO TOMILIN"],
 		"situacao": "F"
 	},
 	{
-		"turma": 1604978,
+		"id": 1604978,
 		"curso": "ORIENTAÇÃO A OBJETOS",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -33,7 +22,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604981,
+		"id": 1604981,
 		"curso": "LÓGICA DE PROGRAMAÇÃO",
 		"sala": "5",
 		"turno": "NOITE",
@@ -44,7 +33,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604988,
+		"id": 1604988,
 		"curso": "LÓGICA DE PROGRAMAÇÃO",
 		"sala": "5",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -55,7 +44,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604975,
+		"id": 1604975,
 		"curso": "LÓGICA DE PROGRAMAÇÃO",
 		"sala": "5",
 		"turno": "MANHÃ",
@@ -66,7 +55,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605040,
+		"id": 1605040,
 		"curso": "LÓGICA DE PROGRAMAÇÃO",
 		"sala": "2 E 1",
 		"turno": "NOITE",
@@ -77,7 +66,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605042,
+		"id": 1605042,
 		"curso": "LÓGICA DE PROGRAMAÇÃO",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -88,7 +77,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604941,
+		"id": 1604941,
 		"curso": "GERÊNCIA DE PROJETOS PMI - PREP. CERTIFICAÇÃO PMP",
 		"sala": "4 - SEG, QUART E SEXT",
 		"turno": "NOITE",
@@ -99,7 +88,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604919,
+		"id": 1604919,
 		"curso": "TESTES DE SOFTWARE - FUNDAMENTOS",
 		"sala": "5",
 		"turno": "NOITE",
@@ -110,7 +99,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605061,
+		"id": 1605061,
 		"curso": "TESTES DE SOFTWARE - FUNDAMENTOS",
 		"sala": "CANCELAR!",
 		"turno": "MANHÃ",
@@ -121,7 +110,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604955,
+		"id": 1604955,
 		"curso": "TESTES DE SOFTWARE - FUNDAMENTOS",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -132,7 +121,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604957,
+		"id": 1604957,
 		"curso": "FERRAMENTAS DE TESTES DE SOFTWARE",
 		"sala": "5",
 		"turno": "MANHÃ",
@@ -143,7 +132,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604921,
+		"id": 1604921,
 		"curso": "FERRAMENTAS DE TESTES DE SOFTWARE",
 		"sala": "5",
 		"turno": "NOITE",
@@ -154,7 +143,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604925,
+		"id": 1604925,
 		"curso": "FERRAMENTAS DE TESTES DE SOFTWARE",
 		"sala": "2",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -165,7 +154,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604979,
+		"id": 1604979,
 		"curso": "MARKETING E COMUNICAÇÃO DIGITAL",
 		"sala": "3 - SEG, QUART E SEXT",
 		"turno": "NOITE",
@@ -176,7 +165,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604920,
+		"id": 1604920,
 		"curso": "TESTES DE SOFTWARE - PLANEJAMENTO E EXECUÇÃO",
 		"sala": "5",
 		"turno": "NOITE",
@@ -187,7 +176,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604956,
+		"id": 1604956,
 		"curso": "TESTES DE SOFTWARE - PLANEJAMENTO E EXECUÇÃO",
 		"sala": "5",
 		"turno": "MANHÃ",
@@ -198,7 +187,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605062,
+		"id": 1605062,
 		"curso": "TESTES DE SOFTWARE - PLANEJAMENTO E EXECUÇÃO",
 		"sala": "CANCELAR!",
 		"turno": "MANHÃ",
@@ -209,7 +198,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605073,
+		"id": 1605073,
 		"curso": "ITIL® - GERENCIAMENTO DE SERVIÇOS DE TI",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -220,7 +209,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604905,
+		"id": 1604905,
 		"curso": "ITIL® - GERENCIAMENTO DE SERVIÇOS DE TI",
 		"sala": "4 - TERÇA E QUINTA",
 		"turno": "NOITE",
@@ -231,7 +220,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604993,
+		"id": 1604993,
 		"curso": "ITIL® - GERENCIAMENTO DE SERVIÇOS DE TI",
 		"sala": "4 1 5 - SEG, QUART E SEXT",
 		"turno": "NOITE",
@@ -242,7 +231,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604990,
+		"id": 1604990,
 		"curso": "INTRODUÇÃO A BANCO DE DADOS E SQL",
 		"sala": "5",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -253,7 +242,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604977,
+		"id": 1604977,
 		"curso": "INTRODUÇÃO A BANCO DE DADOS E SQL",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -264,7 +253,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605046,
+		"id": 1605046,
 		"curso": "INTRODUÇÃO A BANCO DE DADOS E SQL",
 		"sala": "1",
 		"turno": "NOITE",
@@ -275,7 +264,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605014,
+		"id": 1605014,
 		"curso": "JAVA - FUNDAMENTOS DA LINGUAGEM",
 		"sala": "3",
 		"turno": "NOITE",
@@ -286,7 +275,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604946,
+		"id": 1604946,
 		"curso": "JAVA - FUNDAMENTOS DA LINGUAGEM",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -297,7 +286,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604937,
+		"id": 1604937,
 		"curso": "JAVA WEB - DESENVOLVIMENTO DINÂMICO",
 		"sala": "3",
 		"turno": "NOITE",
@@ -308,7 +297,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604948,
+		"id": 1604948,
 		"curso": "JAVA WEB - DESENVOLVIMENTO DINÂMICO",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -319,7 +308,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604922,
+		"id": 1604922,
 		"curso": "TESTES DE SOFTWARE PARA EQUIPES ÁGEIS",
 		"sala": "5",
 		"turno": "NOITE",
@@ -330,7 +319,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604926,
+		"id": 1604926,
 		"curso": "TESTES DE SOFTWARE PARA EQUIPES ÁGEIS",
 		"sala": "2",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -341,7 +330,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604958,
+		"id": 1604958,
 		"curso": "TESTES DE SOFTWARE PARA EQUIPES ÁGEIS",
 		"sala": "5",
 		"turno": "MANHÃ",
@@ -352,7 +341,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605198,
+		"id": 1605198,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -363,7 +352,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605200,
+		"id": 1605200,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -374,7 +363,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605104,
+		"id": 1605104,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "TARDE",
@@ -385,7 +374,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605105,
+		"id": 1605105,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2 ",
 		"turno": "MANHÃ",
@@ -396,7 +385,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605099,
+		"id": 1605099,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "TARDE",
@@ -407,7 +396,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605107,
+		"id": 1605107,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "'",
 		"turno": "TARDE",
@@ -418,7 +407,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605103,
+		"id": 1605103,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "TARDE",
@@ -429,7 +418,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605101,
+		"id": 1605101,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "TARDE",
@@ -440,7 +429,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605102,
+		"id": 1605102,
 		"curso": "CERTIFICAÇÃO ITIL V3",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -451,7 +440,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605031,
+		"id": 1605031,
 		"curso": "ANÁLISE DE NEGÓCIOS - FUNDAMENTOS E PRÁTICAS",
 		"sala": "1",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -462,7 +451,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605069,
+		"id": 1605069,
 		"curso": "ANÁLISE DE NEGÓCIOS - FUNDAMENTOS E PRÁTICAS",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -473,7 +462,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604904,
+		"id": 1604904,
 		"curso": "ANÁLISE DE NEGÓCIOS - FUNDAMENTOS E PRÁTICAS",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -484,7 +473,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604992,
+		"id": 1604992,
 		"curso": "ANÁLISE DE NEGÓCIOS - FUNDAMENTOS E PRÁTICAS",
 		"sala": "2 - SEG, QUART E SEXT",
 		"turno": "NOITE",
@@ -495,7 +484,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604959,
+		"id": 1604959,
 		"curso": "ANDROID - DESENVOLVIMENTO MOBILE",
 		"sala": "CANCELADO",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -506,7 +495,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604968,
+		"id": 1604968,
 		"curso": "ANDROID - DESENVOLVIMENTO MOBILE",
 		"sala": "1",
 		"turno": "NOITE",
@@ -517,7 +506,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605056,
+		"id": 1605056,
 		"curso": "ANDROID - DESENVOLVIMENTO MOBILE",
 		"sala": "CANCELADO!",
 		"turno": "NOITE",
@@ -528,7 +517,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604952,
+		"id": 1604952,
 		"curso": "BUSINESS INTELLIGENCE (BI) - DATA WAREHOUSE E ETL",
 		"sala": "3",
 		"turno": "NOITE",
@@ -539,7 +528,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604939,
+		"id": 1604939,
 		"curso": "BUSINESS INTELLIGENCE (BI) - DATA WAREHOUSE E ETL",
 		"sala": "3 - SEG - QUA - SEX",
 		"turno": "NOITE",
@@ -550,7 +539,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604966,
+		"id": 1604966,
 		"curso": "ANDROID AVANÇADO - DESENVOLVIMENTO MOBILE",
 		"sala": "CANCELADO",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -561,7 +550,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604900,
+		"id": 1604900,
 		"curso": "AUTOMAÇÃO DE TESTES FUNCIONAIS COM SELENIUM E SIKULI",
 		"sala": "1",
 		"turno": "NOITE",
@@ -572,7 +561,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604901,
+		"id": 1604901,
 		"curso": "AUTOMAÇÃO DE TESTES FUNCIONAIS COM SELENIUM WEBDRIVER",
 		"sala": "1 E 3",
 		"turno": "NOITE",
@@ -583,9 +572,9 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605030,
+		"id": 1605030,
 		"curso": "AUTOMAÇÃO DE TESTES FUNCIONAIS COM SELENIUM WEBDRIVER",
-		"sala": "1 - TURMA DA DELL ",
+		"sala": "1 - id DA DELL ",
 		"turno": "INTEGRAL-DIURNO",
 		"instrutor": "ANTÔNIO CLÁUDIO MORAES TRINDADE",
 		"dataInicial": "2017-12-04 00:00:00",
@@ -594,7 +583,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605053,
+		"id": 1605053,
 		"curso": "NODE.JS",
 		"sala": "2",
 		"turno": "NOITE",
@@ -605,7 +594,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605108,
+		"id": 1605108,
 		"curso": "NODE.JS",
 		"sala": "1",
 		"turno": "TARDE",
@@ -616,7 +605,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604914,
+		"id": 1604914,
 		"curso": "NODE.JS",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -627,7 +616,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604930,
+		"id": 1604930,
 		"curso": "NODE.JS",
 		"sala": "CANCELADO",
 		"turno": "NOITE",
@@ -638,7 +627,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604928,
+		"id": 1604928,
 		"curso": "JAVASCRIPT AVANÇADO ",
 		"sala": "5",
 		"turno": "NOITE",
@@ -649,7 +638,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605023,
+		"id": 1605023,
 		"curso": "JAVASCRIPT AVANÇADO ",
 		"sala": "4",
 		"turno": "MANHÃ",
@@ -660,7 +649,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605008,
+		"id": 1605008,
 		"curso": "GIT - CONTROLE DE VERSÕES",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -671,7 +660,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605083,
+		"id": 1605083,
 		"curso": "UX E UI PARA MOBILE NATIVO",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -682,7 +671,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604980,
+		"id": 1604980,
 		"curso": "SEO - TÉCNICAS DE OTIMIZAÇÃO DE SITES",
 		"sala": "3 ",
 		"turno": "NOITE",
@@ -693,7 +682,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605002,
+		"id": 1605002,
 		"curso": "JENKINS - INTEGRAÇÃO CONTÍNUA",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -704,7 +693,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604951,
+		"id": 1604951,
 		"curso": "SCRUM COM KANBAN - GESTÃO DE PROJETOS ÁGEIS",
 		"sala": "6 E 3 - SEG, QUAR E SEXT",
 		"turno": "NOITE",
@@ -715,7 +704,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604892,
+		"id": 1604892,
 		"curso": "SCRUM COM KANBAN - GESTÃO DE PROJETOS ÁGEIS",
 		"sala": "4",
 		"turno": "MANHÃ",
@@ -726,7 +715,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604933,
+		"id": 1604933,
 		"curso": "SCRUM COM KANBAN - GESTÃO DE PROJETOS ÁGEIS",
 		"sala": "2 - TER - QUI",
 		"turno": "NOITE",
@@ -737,7 +726,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604947,
+		"id": 1604947,
 		"curso": "JPA - JAVA PERSISTENCE API COM HIBERNATE",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -748,7 +737,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605015,
+		"id": 1605015,
 		"curso": "JPA - JAVA PERSISTENCE API COM HIBERNATE",
 		"sala": "CANCELADO!",
 		"turno": "NOITE",
@@ -759,7 +748,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604976,
+		"id": 1604976,
 		"curso": "HTML, CSS E JAVASCRIPT",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -770,7 +759,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605043,
+		"id": 1605043,
 		"curso": "HTML, CSS E JAVASCRIPT",
 		"sala": "1",
 		"turno": "NOITE",
@@ -781,7 +770,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605044,
+		"id": 1605044,
 		"curso": "HTML, CSS E JAVASCRIPT",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -792,7 +781,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1604982,
+		"id": 1604982,
 		"curso": "HTML, CSS E JAVASCRIPT",
 		"sala": "5",
 		"turno": "NOITE",
@@ -803,7 +792,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604989,
+		"id": 1604989,
 		"curso": "HTML, CSS E JAVASCRIPT",
 		"sala": "5",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -814,7 +803,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604894,
+		"id": 1604894,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "4",
 		"turno": "NOITE",
@@ -825,7 +814,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605054,
+		"id": 1605054,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "5",
 		"turno": "NOITE",
@@ -836,7 +825,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605066,
+		"id": 1605066,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -847,7 +836,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605035,
+		"id": 1605035,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "2",
 		"turno": "NOITE",
@@ -858,7 +847,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605020,
+		"id": 1605020,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -869,7 +858,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605010,
+		"id": 1605010,
 		"curso": "ORACLE 12C: FUNDAMENTALS I - SQL E SQL*PLUS",
 		"sala": "4",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -880,7 +869,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605011,
+		"id": 1605011,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "CANCELAR!",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -891,7 +880,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605022,
+		"id": 1605022,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "CANCELADA!",
 		"turno": "MANHÃ",
@@ -902,7 +891,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605036,
+		"id": 1605036,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "2",
 		"turno": "NOITE",
@@ -913,7 +902,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605067,
+		"id": 1605067,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "5",
 		"turno": "NOITE",
@@ -924,7 +913,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605068,
+		"id": 1605068,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "1",
 		"turno": "MANHÃ",
@@ -935,7 +924,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604895,
+		"id": 1604895,
 		"curso": "ORACLE 12C: FUNDAMENTALS II - LINGUAGEM PL/SQL",
 		"sala": "1",
 		"turno": "NOITE",
@@ -946,7 +935,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604896,
+		"id": 1604896,
 		"curso": "ORACLE 12C: ADM DO BANCO DE DADOS I",
 		"sala": "1",
 		"turno": "NOITE",
@@ -957,7 +946,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605012,
+		"id": 1605012,
 		"curso": "ORACLE 12C: ADM DO BANCO DE DADOS I",
 		"sala": "CANCELADA!",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -968,7 +957,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604855,
+		"id": 1604855,
 		"curso": "ORACLE 12C: OTIMIZAÇÃO DE BANCO DE DADOS",
 		"sala": "2",
 		"turno": "NOITE",
@@ -979,7 +968,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604893,
+		"id": 1604893,
 		"curso": "ORACLE 12C: ADM DO BANCO DE DADOS II",
 		"sala": "1",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -990,7 +979,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604897,
+		"id": 1604897,
 		"curso": "ORACLE 12C: ADM DO BANCO DE DADOS II",
 		"sala": "1",
 		"turno": "NOITE",
@@ -1001,7 +990,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604964,
+		"id": 1604964,
 		"curso": "TESTES DE SOFTWARE PARA DISPOSITIVOS MOBILE",
 		"sala": "1",
 		"turno": "NOITE",
@@ -1012,7 +1001,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605007,
+		"id": 1605007,
 		"curso": "ORACLE APPLICATION EXPRESS - APEX 5 ",
 		"sala": "AFUBRA SANTA CRUZ",
 		"turno": "INTEGRAL-DIURNO",
@@ -1023,7 +1012,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604889,
+		"id": 1604889,
 		"curso": "INBOUND MARKETING E MARKETING DE CONTEÚDO",
 		"sala": "4 - SEG, QUAT, SEXT",
 		"turno": "NOITE",
@@ -1034,7 +1023,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605021,
+		"id": 1605021,
 		"curso": "DESIGN THINKING - CRIANDO SOLUÇÕES INOVADORAS ",
 		"sala": "2 E 4 - TER - QUI",
 		"turno": "NOITE",
@@ -1045,7 +1034,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604950,
+		"id": 1604950,
 		"curso": "DESIGN THINKING - CRIANDO SOLUÇÕES INOVADORAS ",
 		"sala": "6 - TERÇA E QUINT",
 		"turno": "NOITE",
@@ -1056,7 +1045,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1605091,
+		"id": 1605091,
 		"curso": "DESIGN THINKING - CRIANDO SOLUÇÕES INOVADORAS ",
 		"sala": "JTI SANTA CRUZ",
 		"turno": "INTEGRAL-DIURNO",
@@ -1067,7 +1056,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605055,
+		"id": 1605055,
 		"curso": "MONGODB E NOSQL",
 		"sala": "CANCELAR!",
 		"turno": "MANHÃ",
@@ -1078,7 +1067,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605050,
+		"id": 1605050,
 		"curso": "MONGODB E NOSQL",
 		"sala": "2",
 		"turno": "NOITE",
@@ -1089,7 +1078,7 @@
 		"situacao": "C"
 	},
 	{
-		"turma": 1604927,
+		"id": 1604927,
 		"curso": "MONGODB E NOSQL",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -1100,7 +1089,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604940,
+		"id": 1604940,
 		"curso": "MACHINE LEARNING - DATA SCIENCE COM PYTHON",
 		"sala": "3 - TERÇ E QUINTA",
 		"turno": "NOITE",
@@ -1111,7 +1100,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604915,
+		"id": 1604915,
 		"curso": "LINUX I - FUNDAMENTOS DO SISTEMA",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -1122,7 +1111,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605026,
+		"id": 1605026,
 		"curso": "LINUX I - FUNDAMENTOS DO SISTEMA",
 		"sala": "3",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -1133,7 +1122,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605027,
+		"id": 1605027,
 		"curso": "LINUX II - GERENCIAMENTO DO SISTEMA",
 		"sala": "3",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -1144,7 +1133,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604916,
+		"id": 1604916,
 		"curso": "LINUX II - GERENCIAMENTO DO SISTEMA",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -1155,7 +1144,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604917,
+		"id": 1604917,
 		"curso": "LINUX III - ADM. DE APLICAÇÕES DO SISTEMA",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -1166,7 +1155,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605028,
+		"id": 1605028,
 		"curso": "LINUX III - ADM. DE APLICAÇÕES DO SISTEMA",
 		"sala": "3",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -1177,7 +1166,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605093,
+		"id": 1605093,
 		"curso": "LINUX III - ADM. DE APLICAÇÕES DO SISTEMA",
 		"sala": "TRT4",
 		"turno": "INTEGRAL-DIURNO",
@@ -1188,7 +1177,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605029,
+		"id": 1605029,
 		"curso": "LINUX IV -  ADM. DE SERVIÇOS WEB E EMAIL",
 		"sala": "CANCELAR!",
 		"turno": "INTEGRAL-SÁBADOS",
@@ -1199,7 +1188,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1604918,
+		"id": 1604918,
 		"curso": "LINUX IV -  ADM. DE SERVIÇOS WEB E EMAIL",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -1210,7 +1199,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1604965,
+		"id": 1604965,
 		"curso": "DOCKER PARA DEVOPS - ORQUESTRANDO CONTAINERS",
 		"sala": "CANCELAR!",
 		"turno": "NOITE",
@@ -1221,7 +1210,7 @@
 		"situacao": "A"
 	},
 	{
-		"turma": 1605032,
+		"id": 1605032,
 		"curso": "JAVA - DESENVOLVENDO COM TDD",
 		"sala": "4",
 		"turno": "NOITE",
@@ -1232,7 +1221,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605033,
+		"id": 1605033,
 		"curso": "JAVA - DESENVOLVENDO COM TDD",
 		"sala": "3",
 		"turno": "MANHÃ",
@@ -1243,7 +1232,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605034,
+		"id": 1605034,
 		"curso": "JAVA - DESENVOLVENDO COM TDD",
 		"sala": "3",
 		"turno": "NOITE",
@@ -1254,7 +1243,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605059,
+		"id": 1605059,
 		"curso": "ANGULAR 4",
 		"sala": "2",
 		"turno": "MANHÃ",
@@ -1265,7 +1254,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605094,
+		"id": 1605094,
 		"curso": "ANGULAR 4",
 		"sala": "2",
 		"turno": "NOITE",
@@ -1276,7 +1265,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605057,
+		"id": 1605057,
 		"curso": "ANGULAR 4",
 		"sala": "5",
 		"turno": "NOITE",
@@ -1287,7 +1276,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605058,
+		"id": 1605058,
 		"curso": "ANGULAR 4",
 		"sala": "1 DIVERSAS EMPRESAS",
 		"turno": "MANHÃ",
@@ -1298,7 +1287,7 @@
 		"situacao": "F"
 	},
 	{
-		"turma": 1605098,
+		"id": 1605098,
 		"curso": "JAVASCRIPT PRO",
 		"sala": "2",
 		"turno": "NOITE",

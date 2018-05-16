@@ -9,7 +9,7 @@ const routes: Routes = [
   { path:'view', component: EventViewerComponent  },
  // { path:'edit', component: CronoEditComponent },
   { path:'lista', component: EventListComponent },
-  { path:'turma/:id', component: EventDetailComponent }
+  { path:'event/:id', component: EventDetailComponent }
 ];
 
 @NgModule({

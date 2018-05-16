@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+section {
+  background: #ddd;
+}
+a {
+  color: $primary-color;
+}
+tr.selected {
+  box-shadow: 0 0 15px 10px $accent-color;
+}

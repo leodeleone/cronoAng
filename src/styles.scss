@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Bootstrap 4.1.1 */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Simple reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+ul, ol, li {
+  list-style: none;
+}
+
+/* App standards */
+@import "variables.scss";
+
+a {
+  text-decoration: none;
+}

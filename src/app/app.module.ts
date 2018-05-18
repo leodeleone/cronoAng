@@ -12,7 +12,9 @@ import { EventCardComponent } from './event-card/event-card.component';
 import { CamelcasePipe } from './camelcase.pipe';
 import { HttpClientModule } from '@angular/common/http';
 //import { TooltipModule } from "ngx-bootstrap/tooltip";
-import { ModalModule } from "ngx-bootstrap/modal";
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { CadastroCursosComponent } from './cadastro-cursos/cadastro-cursos.component';
+import { CadastroInstrutorComponent } from './cadastro-instrutor/cadastro-instrutor.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ModalModule } from "ngx-bootstrap/modal";
     EventViewerComponent,
     EventDetailComponent,
     EventCardComponent,
-    CamelcasePipe
+    CamelcasePipe,
+    CadastroCursosComponent,
+    CadastroInstrutorComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import { ModalModule } from "ngx-bootstrap/modal";
     //TooltipModule.forRoot(),
     ModalModule.forRoot()
   ],
+  entryComponents: [EventDetailComponent], // sem isso buga o modal. vai entender
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,3 +1,38 @@
-<p>
-  header works!
-</p>
+<header class="header w-100">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="http://www.targettrust.com.br/">
+      <img src="assets/images/FaviconTargetTrust.png" alt="TargetTrust" style="width:36px;height:36px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" title="Home" routerLinkActive="active" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" title="Calendário" routerLinkActive="active" routerLink="view">Grade</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" title="Lista de Turmas" routerLinkActive="active" routerLink="lista">Lista</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" title="Cursos" routerLinkActive="active" routerLink="cursos">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" title="Instrutores" routerLinkActive="active" routerLink="instrutores">Instrutores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" routerLinkActive="active" routerLink="editor">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>

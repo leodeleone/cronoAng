@@ -1,17 +1,112 @@
-<div *ngIf='event'>
-  <div class="modal-header">
-    <h5 class="modal-title">Detalhes do evento {{event.id}}</h5>
-    <button type="button" class="close" aria-label="Close" (click)="modalRef.hide()">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <div class='container-fluid'>
-      <h5>Curso de {{event.curso}}</h5>
+<!--
+  (click)="modalRef.hide()"
+  (click)="tryToSave()"
+  {{event.id}}
+  <span aria-hidden="true">&times;</span>
+-->
+<div class="container-fluid px-0 detail-modal" *ngIf='event'>
+  <div class="card turma-detail">
+    <div class="card-header">
+      <h5 class="mb-0">Detalhes do Evento {{event.id}}
+        <button type="button" class="close float-right" aria-label="Close" (click)="modalRef.hide()">
+            <i class="fas fa-times"></i>
+        </button>
+      </h5>
     </div>
-  </div>
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" (click)="modalRef.hide()">Close</button>
-    <button type="button" class="btn btn-primary" (click)="tryToSave()">Save changes</button>
+    <div class="card-body">
+      <form id="form-event">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-row">
+              <div class="form-group col-md">
+                <label for="tipo">Tipo
+                  <small class="text-danger">(required)</small>
+                </label>
+                <select id="tipo" name="tipo" class="form-control form-control-sm" required>
+                </select>
+              </div>
+              <div class="form-group col-md-auto">
+                <label>Situação
+                  <small class="text-danger">(required)</small>
+                </label>
+                <div class="form-control border-0 p-0 pt-1">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="situacaoA" name="situacao" value="A" checked="checked">
+                    <label class="form-check-label" for="situacaoA">A</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="situacaoC" name="situacao" value="C">
+                    <label class="form-check-label" for="situacaoC">C</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="situacaoF" name="situacao" value="F">
+                    <label class="form-check-label" for="situacaoF">F</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="situacaoE" name="situacao" value="E">
+                    <label class="form-check-label" for="situacaoE">E</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="curso">Curso</label>
+              <select id="curso" name="curso" class="form-control form-control-sm">
+                <option disabled selected value> -- Selecione um curso -- </option>
+              </select>
+              <!--
+                      <input class="form-control" list="dl-cursos" id="curso" name="curso" placeholder="Digite ou selecione um curso...">
+                      <datalist id="dl-cursos">
+                      </datalist>
+                      -->
+            </div>
+            <div class="form-group">
+              <label for="instrutor">Instrutor</label>
+              <select id="instrutor" name="instrutor" class="form-control form-control-sm">
+                <option selected value> -- Selecione um instrutor -- </option>
+              </select>
+              <!--
+                      <input class="form-control" list="dl-instrutores" id="instrutor" name="instrutor" placeholder="Digite ou selecione um instrutor...">
+                      <datalist id="dl-instrutores">
+                      </datalist>
+                      -->
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="ch">Carga Horária</label>
+                <input type="text" class="form-control form-control-sm" id="ch" placeholder="CH.." readonly>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="qtd">Quantidade</label>
+                <input type="number" class="form-control form-control-sm" id="qtd" placeholder="Qtd.." max="20">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Aulas</label>
+              <div class="form-row">
+                <div class="col">
+                  <label class="mx-auto d-block text-center">Data</label>
+                </div>
+                <div class="col">
+                  <label class="mx-auto d-block text-center">Turno</label>
+                </div>
+                <div class="col">
+                  <label class="mx-auto d-block text-center">Local</label>
+                </div>
+              </div>
+              <div id="datafield">
+                <!-- will be populated via jQuery -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="card-footer row justify-content-md-center p-2">
+      <button type="button" class="btn btn-primary mx-1" (click)="tryToSave()">Salvar</button>
+      <button type="button" class="btn btn-default mx-1" (click)="modalRef.hide()">Cancelar</button>
+    </div>
   </div>
 </div>

@@ -1,0 +1,343 @@
+[
+  { "id": 1, "nome": "Adilson Pize", "email": "adilson@excellencegestao.com.br", "ativo": true },
+  {
+    "id": 2,
+    "nome": "Adriano da Silva Barcelos",
+    "email": "adrianobarcelos@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 3,
+    "nome": "Adriano da Silva Fonseca ",
+    "email": "new.adriano.fonseca@gmail.com",
+    "ativo": true
+  },
+  { "id": 4, "nome": "Alessandro Gralha de Caneda", "email": "caneda@gmail.com", "ativo": true },
+  {
+    "id": 5,
+    "nome": "Alexandre José Strevenski",
+    "email": "alexandre.strevenski@gmail.com",
+    "ativo": true
+  },
+  { "id": 6, "nome": "Aline Zanin", "email": "alinnezanin@gmail.com", "ativo": true },
+  {
+    "id": 7,
+    "nome": "Alysson Lucas Zanette",
+    "email": "alysson@targettrust.com.br ",
+    "ativo": true
+  },
+  {
+    "id": 8,
+    "nome": "André Luis Ferreira da Silva",
+    "email": "andre.lfds@gmail.com",
+    "ativo": true
+  },
+  { "id": 9, "nome": "Angela Viegas Oliveira", "email": "angela@testcenter.inf.br", "ativo": true },
+  {
+    "id": 10,
+    "nome": "Antônio Cláudio Moraes Trindade",
+    "email": "amtrindade@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 11,
+    "nome": "Arno Roldão de Oliveira Junior",
+    "email": "arno@advg.com.br",
+    "ativo": true
+  },
+  { "id": 12, "nome": "Arthur Nery Jalmusny", "email": "arthur@yellowfin.com.br", "ativo": true },
+  {
+    "id": 13,
+    "nome": "Bernardo Bosak de Rezende",
+    "email": "bernardobrezende@gmail.com",
+    "ativo": true
+  },
+  { "id": 14, "nome": "Betine Rafaelli ", "email": "betine@gmail.com", "ativo": true },
+  { "id": 15, "nome": "Bruno Savegnago Fajardo", "email": "bruno@targeteria.com", "ativo": true },
+  { "id": 16, "nome": "Carlos Giovani Rodrigues", "email": "giovani.cgr@gmail.com", "ativo": true },
+  {
+    "id": 17,
+    "nome": "Carlos Manoel Almada Perfeito",
+    "email": "carlos@charterhouse.com.br",
+    "ativo": true
+  },
+  {
+    "id": 18,
+    "nome": "Cássio André Wailer Trindade",
+    "email": "cassiowt@gmail.com",
+    "ativo": true
+  },
+  { "id": 19, "nome": "Cícero da Silva Feijó", "email": "cicero.feijo@gmail.com", "ativo": true },
+  {
+    "id": 20,
+    "nome": "Cristian Guilherme Fritsch",
+    "email": "guilherme@opiniaoearte.com.br",
+    "ativo": true
+  },
+  {
+    "id": 21,
+    "nome": "Cynthia Menezes Zanoni ",
+    "email": "cynthiazanoni@gmail.com",
+    "ativo": true
+  },
+  { "id": 22, "nome": "Daniel Silveira de Castro", "email": "daniel@kodeout.tk", "ativo": true },
+  {
+    "id": 23,
+    "nome": "Danilo de Melo Santos",
+    "email": "danilo.santos@neogrid.com",
+    "ativo": true
+  },
+  {
+    "id": 24,
+    "nome": "Deise Martins Dall´agnol",
+    "email": "deisedallagnol@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 25,
+    "nome": "Demétrius César Rodrigues",
+    "email": "demetriusrodrigues@hotmail.com",
+    "ativo": true
+  },
+  {
+    "id": 26,
+    "nome": "Douglas de Oliveira Collioni",
+    "email": "dcollioni@gmail.com",
+    "ativo": true
+  },
+  { "id": 27, "nome": "Elisa Leo de Oliveira", "email": "elisaleoo@gmail.com", "ativo": true },
+  {
+    "id": 28,
+    "nome": "Emilio Carlos Scudero",
+    "email": "escudero@itarchitect.com.br",
+    "ativo": true
+  },
+  { "id": 29, "nome": "Er Galvão Abbott", "email": "galvao@galvao.eti.br", "ativo": true },
+  {
+    "id": 30,
+    "nome": "Erick Kosmalski Scudero ",
+    "email": "erick@targettrust.com.br",
+    "ativo": true
+  },
+  { "id": 31, "nome": "Fábio Schneider", "email": "fabiocampero@gmail.com", "ativo": true },
+  { "id": 32, "nome": "Felipe da Silva Malta ", "email": "felipemalta12@gmail.com", "ativo": true },
+  {
+    "id": 33,
+    "nome": "Felipe Diefenbach",
+    "email": "felipe@conexaoinfraestrutura.inf.br",
+    "ativo": true
+  },
+  {
+    "id": 34,
+    "nome": "Felipe Teixeira Leduino ",
+    "email": "felipe.leduino@gmail.com ",
+    "ativo": true
+  },
+  { "id": 35, "nome": "Filipo Novo Mor", "email": "fifomor@gmail.com", "ativo": true },
+  {
+    "id": 36,
+    "nome": "Gerson Luiz Melo Silveira",
+    "email": "gersonsilveira@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 37,
+    "nome": "Gilberto Cesar Lupatini",
+    "email": "gilberto.lupatini@gmail.com",
+    "ativo": true
+  },
+  { "id": 38, "nome": "Giovanni Pereira Rotta", "email": "gprotta@gmail.com", "ativo": true },
+  { "id": 39, "nome": "Greice de Carli Roman", "email": "greice.roman@gmail.com", "ativo": true },
+  { "id": 40, "nome": "Guilherme Solon da Costa", "email": "guilherme@beg.inf.br", "ativo": true },
+  {
+    "id": 41,
+    "nome": "Henry Emanuel Leal Cagnini",
+    "email": "henry.cagnini@gmail.com",
+    "ativo": true
+  },
+  { "id": 42, "nome": "Instrutor Próprio", "email": "", "ativo": true },
+  {
+    "id": 43,
+    "nome": "Jackson Ferreira de Andrade Mafra",
+    "email": "jacksonfdam@gmail.com",
+    "ativo": true
+  },
+  { "id": 44, "nome": "João Gustavo Bier", "email": "joaobier@gmail.com", "ativo": true },
+  {
+    "id": 45,
+    "nome": "Jonatan da Silva Ritter",
+    "email": "jonatan.ritter@gmail.com",
+    "ativo": true
+  },
+  { "id": 46, "nome": "Jones Viana Gonçalves", "email": "jonesvg@gmail.com", "ativo": true },
+  { "id": 47, "nome": "José Laurício Kaefer", "email": "lauricio@beg.inf.br", "ativo": true },
+  {
+    "id": 48,
+    "nome": "Julio Cesar Romano Martins Junior",
+    "email": "julioromano@gmail.com",
+    "ativo": true
+  },
+  { "id": 49, "nome": "Klaus Fischborn", "email": "kasfb@bol.com.br", "ativo": true },
+  { "id": 50, "nome": "Leonardo Amora", "email": "leonardoamoraleite@gmail.com", "ativo": true },
+  { "id": 51, "nome": "Luana Machado Hohmann", "email": "luanahohmann@gmail.com", "ativo": true },
+  {
+    "id": 52,
+    "nome": "Lucas Ferreira Freitas ",
+    "email": "lucas@lucasfreitas.com.br",
+    "ativo": true
+  },
+  { "id": 53, "nome": "Luciano Monteiro da Silva", "email": "lucams@gmail.com", "ativo": true },
+  {
+    "id": 54,
+    "nome": "Luiz Bernardo Carvalho Sanson",
+    "email": "eu.bernardo@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 55,
+    "nome": "Maiquel Krolikowski Leonel ",
+    "email": "maiquel@mmdadigital.com.br",
+    "ativo": true
+  },
+  { "id": 56, "nome": "Mara Friedrich Press", "email": "marafpress@gmail.com", "ativo": true },
+  {
+    "id": 57,
+    "nome": "Marcelli Amancio Vieira",
+    "email": "marcelli.vieira@gmail.com",
+    "ativo": true
+  },
+  { "id": 58, "nome": "Marcelo Barrionuevo Lago", "email": "marcelolago@gmail.com", "ativo": true },
+  {
+    "id": 59,
+    "nome": "Marcelo Santiago Garcia ",
+    "email": "marcelo.sagarcia@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 60,
+    "nome": "Marcelo Vasconcellos Gomes",
+    "email": "marcelo_vg@hotmail.com",
+    "ativo": true
+  },
+  {
+    "id": 61,
+    "nome": "Marcia Ferreira Castagna",
+    "email": "marciafc.info@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 62,
+    "nome": "Marcos Vinicius Silveira dos Santos",
+    "email": "bymarkone@gmail.com",
+    "ativo": true
+  },
+  { "id": 63, "nome": "Marko Petek", "email": "markoptk@gmail.com", "ativo": true },
+  { "id": 64, "nome": "Mauro Fernando Zirbes", "email": "mzirbes@gmail.com", "ativo": true },
+  {
+    "id": 65,
+    "nome": "Murilo Junqueira Flesch",
+    "email": "murilofleschweb@gmail.com",
+    "ativo": true
+  },
+  { "id": 66, "nome": "Nemora Santamaria Dornelles", "email": "nemora@gmail.com", "ativo": true },
+  {
+    "id": 67,
+    "nome": "Nicolas Meira da Silva Schirmer",
+    "email": "nschirmer.dev@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 68,
+    "nome": "Otto Lopes Braitback de Oliveira",
+    "email": "ottolb@gmail.com",
+    "ativo": true
+  },
+  { "id": 69, "nome": "Patrícia Araújo Gonçalves", "email": "patiaraujo@gmail.com", "ativo": true },
+  { "id": 70, "nome": "Paulo Heck", "email": "pauloheck@gmail.com", "ativo": true },
+  { "id": 71, "nome": "Pedro Henrique Jost", "email": "pedro.jost@gmail.com", "ativo": true },
+  {
+    "id": 72,
+    "nome": "Pier Roberto Riboni",
+    "email": "pier.riboni@rhinoconsulting.com.br",
+    "ativo": true
+  },
+  { "id": 73, "nome": "Rafael Helm ", "email": "rafaelhelm@gmail.com", "ativo": true },
+  {
+    "id": 74,
+    "nome": "Rafael Leonardo Danieli",
+    "email": "rafaelldanieli@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 75,
+    "nome": "Ralph José Rassweiler Filho",
+    "email": "ralph.rassweiler@acad.pucrs.br ",
+    "ativo": true
+  },
+  { "id": 76, "nome": "Raul Amoretti de Souza", "email": "amoretti@via-rs.net", "ativo": true },
+  { "id": 77, "nome": "Renan Ludmann Pias", "email": "renan.pias@gmail.com", "ativo": true },
+  {
+    "id": 78,
+    "nome": "Ricardo dos Santos Candido",
+    "email": "ricardo.candido@hotmail.com",
+    "ativo": true
+  },
+  {
+    "id": 79,
+    "nome": "Ricardo José Alves da Rocha",
+    "email": "ricardorocha.poa@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 80,
+    "nome": "Ricardo Viégas Oliveira",
+    "email": "ricardo@testcenter.inf.br",
+    "ativo": true
+  },
+  {
+    "id": 81,
+    "nome": "Roberto Zaffari Irigaray",
+    "email": "r.z.irigaray@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 82,
+    "nome": "Robson da Silva de Almeida",
+    "email": "robsona@superplayer.fm",
+    "ativo": true
+  },
+  { "id": 83, "nome": "Rodrigo Leite ", "email": "rodrigoleite2000@yahoo.com.br", "ativo": true },
+  {
+    "id": 84,
+    "nome": "Rodrigo Resmini Zanella",
+    "email": "rodrigoresminizanella@gmail.com",
+    "ativo": true
+  },
+  {
+    "id": 85,
+    "nome": "Rodrigo Vasconcellos Carvalho",
+    "email": "rodrigovcarvalho@gmail.com",
+    "ativo": true
+  },
+  { "id": 86, "nome": "Roger Ritter", "email": "rogersmartlife@gmail.com", "ativo": true },
+  { "id": 87, "nome": "Saulo Silveira Vieira", "email": "saulo@saulovieira.com.br", "ativo": true },
+  { "id": 88, "nome": "Sebastian Webber", "email": "sebastian@swebber.me", "ativo": true },
+  {
+    "id": 89,
+    "nome": "Suzana Cohem Sfoggia ",
+    "email": "suzana-sfoggia@procergs.rs.gov.br",
+    "ativo": true
+  },
+  {
+    "id": 90,
+    "nome": "Thiago Dorneles de Oliveira",
+    "email": "thiagodornelesrs@gmail.com",
+    "ativo": true
+  },
+  { "id": 91, "nome": "Thiago Lazzarotto da Costa", "email": "thilazza@gmail.com", "ativo": true },
+  { "id": 92, "nome": "Tiago Gabriel", "email": "tiago.gabriel@gmail.com ", "ativo": true },
+  { "id": 93, "nome": "Tiago Paixão Pereira", "email": "tiago.paixao@gmail.com", "ativo": true },
+  { "id": 94, "nome": "Vinicius Hisao Suzuki", "email": "vinicius@hisao.com.br", "ativo": true },
+  { "id": 95, "nome": "Vinícius Maroni", "email": "viniciusmaroni@gmail.com", "ativo": true },
+  { "id": 96, "nome": "Viviane Rangel", "email": "rangelvivi@gmail.com\r\n", "ativo": true }
+]

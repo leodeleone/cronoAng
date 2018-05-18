@@ -1,0 +1,53 @@
+<div class="contaier-fluid bg-light">
+    <h2 class="px-4 py-3">
+      Lista de Instrutores
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <table class="table table-striped text-center" id="lista-instrutores">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">E-mail</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let instrutor of instrutores">
+                <td>{{instrutor.id}}</td>
+                <td>{{instrutor.nome}}</td>
+                <td>{{instrutor.email}}</td>
+                <td><a class="icon-btn mx-1 delete" (click)="deleteInstrutor(instrutor.id)" title="Excluir"><i class="fas fa-trash-alt"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-5">
+          <h4>Adicionar novo instrutor:</h4>
+          <form id="new-curso-form">
+            <div class="form-group">
+              <label for="new-instrutor-nome">Nome do instrutor:</label>
+              <input type="text" class="form-control" id="new-instrutor-nome" name="nome" placeholder="Nome do instrutor.." required>
+              <small class="form-text text-muted">Verifique antes se o instrutor já não está cadastrado!</small>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-8">
+                <div class="form-group">
+                  <label for="new-instrutor-email">Email do Instrutor:</label>
+                  <input type="email" class="form-control" id="new-instrutor-email" name="email" placeholder="E-mail do instrutor..">
+                </div>
+              </div>
+              <div class="col-sm-4 d-flex" style="justify-content:flex-end">
+                <div class="form-group mt-auto">
+                  <small id="submit-success" class="form-text text-muted" style="display:none">Instrutor cadastrado com sucesso!</small>
+                  <button disabled type="submit" class="btn btn-primary float-right">Cadastrar</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -18,7 +18,7 @@ export class EventDetailComponent implements OnInit {
   }
 
   public tryToSave() {
-    console.log('informações salvas! (zoa)');
+    console.log('informações salvas! (zoa, ignorei tudo)');
     this.modalRef.hide();
   }
 

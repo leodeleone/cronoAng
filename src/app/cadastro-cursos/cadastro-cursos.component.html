@@ -1,0 +1,54 @@
+<section class="contaier-fluid bg-light">
+  <h2 class="px-4 py-3">
+    Lista de Cursos
+  </h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <table class="table table-striped text-center" id="lista-cursos">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#ID</th>
+              <th scope="col">Nome do Curso</th>
+              <th scope="col">CH</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let curso of cursos">
+              <td>{{curso.id}}</td>
+              <td>{{curso.nome}}</td>
+              <td>{{curso.cargaHoraria}}h</td>
+              <td><a class="icon-btn mx-1 delete" (click)="deleteCurso(curso.id)" title="Excluir"><i class="fas fa-trash-alt"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-5">
+        <h4>Adicionar novo curso:</h4>
+        <form id="new-curso-form">
+          <div class="form-group">
+            <label for="new-curso-nome">Nome do curso:</label>
+            <input type="text" class="form-control" id="new-curso-nome" name="nome" placeholder="Nome do curso.." required>
+            <small class="form-text text-muted">Verifique antes se o curso já não está cadastrado!</small>
+          </div>
+          <div class="form-row">
+            <div class="col-sm-8">
+              <div class="form-group">
+                <label for="new-curso-ch">Carga horária:</label>
+                <input type="number" class="form-control" id="new-curso-ch" name="carga_horaria" placeholder="CH.." min="4" max="400" step="4"
+                  style="width: auto;">
+              </div>
+            </div>
+            <div class="col-sm-4 d-flex" style="justify-content:flex-end">
+              <div class="form-group mt-auto">
+                <small id="submit-success" class="form-text text-muted" style="display:none">Curso cadastrado com sucesso!</small>
+                <button disabled type="submit" class="btn btn-primary float-right">Cadastrar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

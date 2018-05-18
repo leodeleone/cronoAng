@@ -3,13 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { EventViewerComponent } from './event-viewer/event-viewer.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { CadastroCursosComponent } from './cadastro-cursos/cadastro-cursos.component';
+import { CadastroInstrutorComponent } from './cadastro-instrutor/cadastro-instrutor.component';
 
 const routes: Routes = [
-  { path:'', redirectTo: 'lista', pathMatch: 'full' },  // home page
+  { path:'', redirectTo: 'cursos', pathMatch: 'full' },  // home page
   { path:'view', component: EventViewerComponent  },
- // { path:'edit', component: CronoEditComponent },
+  //{ path:'edit', component: CronoEditComponent },
   { path:'lista', component: EventListComponent },
-  { path:'event/:id', component: EventDetailComponent }
+  { path:'cursos', component: CadastroCursosComponent },
+  { path:'instrutores', component: CadastroInstrutorComponent },
+  //{ path:'event/:id', component: EventDetailComponent }
 ];
 
 @NgModule({

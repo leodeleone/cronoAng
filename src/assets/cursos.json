@@ -1,0 +1,181 @@
+[
+  {
+    "id": "1",
+    "nome": "Análise de Negócios - Fundamentos e Práticas",
+    "cargaHoraria": "36",
+    "ativo": true
+  },
+  { "id": "2", "nome": "Android - Desenvolvimento Mobile", "cargaHoraria": "40", "ativo": true },
+  { "id": "3", "nome": "Angular 4", "cargaHoraria": "20", "ativo": true },
+  {
+    "id": "4",
+    "nome": "Business Intelligence (BI) - Data Warehouse e ETL",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "5",
+    "nome": "Design Thinking Criando Soluções Inovadoras",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "6",
+    "nome": "Docker para DevOps - Orquestrando Containers",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  { "id": "7", "nome": "Ferramentas de Testes de Software", "cargaHoraria": "20", "ativo": true },
+  { "id": "8", "nome": "Git - Controle de Versões", "cargaHoraria": "12", "ativo": true },
+  { "id": "9", "nome": "HTML, CSS e JavaScript", "cargaHoraria": "40", "ativo": true },
+  {
+    "id": "10",
+    "nome": "Inbound Marketing e Marketing de Conteúdo",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  { "id": "11", "nome": "Introdução a Banco de Dados e SQL", "cargaHoraria": "20", "ativo": true },
+  {
+    "id": "12",
+    "nome": "ITIL® - Gerência de Serviços em TI",
+    "cargaHoraria": "24",
+    "ativo": true
+  },
+  { "id": "13", "nome": "Java - Desenvolvendo com TDD", "cargaHoraria": "16", "ativo": true },
+  { "id": "14", "nome": "Java - Fundamentos da Linguagem", "cargaHoraria": "32", "ativo": true },
+  {
+    "id": "15",
+    "nome": "Java Web - Desenvolvimento Dinâmico",
+    "cargaHoraria": "28",
+    "ativo": true
+  },
+  { "id": "16", "nome": "JavaScript Pro", "cargaHoraria": "20", "ativo": true },
+  { "id": "17", "nome": "Jenkins - Integração Contínua", "cargaHoraria": "16", "ativo": true },
+  {
+    "id": "18",
+    "nome": "JPA - Java Persistence API com Hibernate",
+    "cargaHoraria": "28",
+    "ativo": true
+  },
+  { "id": "19", "nome": "Linux I - Fundamentos do Sistema", "cargaHoraria": "12", "ativo": true },
+  {
+    "id": "20",
+    "nome": "Linux II - Gerenciamento do Sistema",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "21",
+    "nome": "Linux III - Administração de Serviços e Aplicações",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "22",
+    "nome": "Linux IV - Administração de Serviços Web e de Email",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  { "id": "23", "nome": "Lógica de Programação", "cargaHoraria": "20", "ativo": true },
+  {
+    "id": "24",
+    "nome": "Machine Learning - Data Science com Python",
+    "cargaHoraria": "32",
+    "ativo": true
+  },
+  { "id": "25", "nome": "Marketing e Comunicação Digital", "cargaHoraria": "24", "ativo": true },
+  { "id": "26", "nome": "MongoDB e NoSQL", "cargaHoraria": "16", "ativo": true },
+  { "id": "27", "nome": "Node.js", "cargaHoraria": "20", "ativo": true },
+  {
+    "id": "28",
+    "nome": "Oracle 12c: Administração do Banco de Dados I",
+    "cargaHoraria": "30",
+    "ativo": true
+  },
+  {
+    "id": "29",
+    "nome": "Oracle 12c: Administração do Banco de Dados II",
+    "cargaHoraria": "30",
+    "ativo": true
+  },
+  {
+    "id": "30",
+    "nome": "Oracle 12c: Fundamentals I - SQL e SQL*Plus",
+    "cargaHoraria": "24",
+    "ativo": true
+  },
+  {
+    "id": "31",
+    "nome": "Oracle 12c: Fundamentals II - Linguagem PL/SQL",
+    "cargaHoraria": "24",
+    "ativo": true
+  },
+  {
+    "id": "32",
+    "nome": "Oracle 12c: Otimização e Performance do Banco de Dados",
+    "cargaHoraria": "24",
+    "ativo": true
+  },
+  {
+    "id": "33",
+    "nome": "Oracle Application Express - APEX 5",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  { "id": "34", "nome": "Orientação a Objetos", "cargaHoraria": "12", "ativo": true },
+  {
+    "id": "35",
+    "nome": "Power BI - Tomando Decisões Baseadas em Dados",
+    "cargaHoraria": "28",
+    "ativo": true
+  },
+  {
+    "id": "36",
+    "nome": "Scrum com Kanban - Gestão de Projetos Ágeis",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "37",
+    "nome": "SEO - Técnicas de Otimização de Sites",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  { "id": "38", "nome": "Testes de Software - Fundamentos", "cargaHoraria": "20", "ativo": true },
+  {
+    "id": "39",
+    "nome": "Testes de Software - Planejamento e Execução",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "40",
+    "nome": "Testes de Software para Dispositivos Mobile",
+    "cargaHoraria": "24",
+    "ativo": true
+  },
+  {
+    "id": "41",
+    "nome": "Testes de Software para Equipes Ágeis",
+    "cargaHoraria": "16",
+    "ativo": true
+  },
+  {
+    "id": "42",
+    "nome": "User Experience (UX) - Design e Estratégia",
+    "cargaHoraria": "16",
+    "ativo": true
+  },
+  {
+    "id": "43",
+    "nome": "Automação de Testes Funcionais com Selenium e Sikuli",
+    "cargaHoraria": "20",
+    "ativo": true
+  },
+  {
+    "id": "44",
+    "nome": "Automação de Testes Funcionais com Selenium WebDriver",
+    "cargaHoraria": "20",
+    "ativo": true
+  }
+]

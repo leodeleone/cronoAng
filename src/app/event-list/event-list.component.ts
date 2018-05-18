@@ -19,10 +19,16 @@ export class EventListComponent implements OnInit {
 
   ngOnInit() {
     this.getEvents();
+    //setTimeout(() => this.onSelect(this.events[0]), 500);
   }
 
   public getEvents(): void {
-    this.apiData.getEvents().subscribe(data => (this.events = data));
+    this.apiData.getEvents().subscribe(data => {
+      data.forEach( e => {
+        e.sala = parseInt(e.sala.toString());
+      });
+      this.events = data;
+    });
   }
 
   public onSelect(event: Event): void {
@@ -30,6 +36,7 @@ export class EventListComponent implements OnInit {
     const initialState = {
       event: event
     };
-    this.modalRef = this.modalService.show(EventDetailComponent, { initialState });
+    this.modalRef = this.modalService.show(EventDetailComponent, { initialState, class: 'modal-lg' });
+    this.modalService.onHide.subscribe(() => this.selectedEvent = null);
   }
 }

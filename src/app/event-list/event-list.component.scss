@@ -2,10 +2,14 @@
 
 section {
   background: #ddd;
+
+  .table .thead-dark th {
+    border: none;
+  }
 }
 a {
   color: $primary-color;
 }
 tr.selected {
-  box-shadow: 0 0 15px 10px $accent-color;
+  box-shadow: 0 0 .6rem .5rem $accent-color;
 }

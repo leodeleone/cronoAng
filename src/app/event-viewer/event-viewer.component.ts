@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-event-viewer',
@@ -6,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-viewer.component.scss']
 })
 export class EventViewerComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor(private app: AppComponent) { }
 
   ngOnInit() {
   }

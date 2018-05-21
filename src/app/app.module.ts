@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { CadastroCursosComponent } from './cadastro-cursos/cadastro-cursos.component';
 import { CadastroInstrutorComponent } from './cadastro-instrutor/cadastro-instrutor.component';
+import { CalendarGridComponent } from './calendar-grid/calendar-grid.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CadastroInstrutorComponent } from './cadastro-instrutor/cadastro-instru
     EventCardComponent,
     CamelcasePipe,
     CadastroCursosComponent,
-    CadastroInstrutorComponent
+    CadastroInstrutorComponent,
+    CalendarGridComponent
   ],
   imports: [
     BrowserModule,

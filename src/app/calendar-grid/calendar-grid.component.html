@@ -1,0 +1,37 @@
+<table class="table table-hover table-bordered my-2 calendar-grid">
+  <thead>
+    <tr>
+      <th scope='col' style="width: 7.6%"></th>
+      <th scope="col" style="width: 15.4%" *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-t{{turno}}">
+        {{app.diasSemana[i]}}
+        <small>{{app.weekDates[i] | date:"dd/MM/yy"}}</small>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Sala 1</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala1-t{{turno}}"></td>
+    </tr>
+    <tr>
+      <th scope="row">Sala 2</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala2-t{{turno}}"></td>
+    </tr>
+    <tr>
+      <th scope="row">Sala 3</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala3-t{{turno}}"></td>
+    </tr>
+    <tr>
+      <th scope="row">Sala 4</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala4-t{{turno}}"></td>
+    </tr>
+    <tr>
+      <th scope="row">Sala 5</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala5-t{{turno}}"></td>
+    </tr>
+    <tr>
+      <th scope="row">Sala 6</th>
+      <td *ngFor="let i of [1,2,3,4,5,6]" id="d{{i}}-lsala6-t{{turno}}"></td>
+    </tr>
+  </tbody>
+</table>

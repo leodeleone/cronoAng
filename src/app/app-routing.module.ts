@@ -7,7 +7,7 @@ import { CadastroCursosComponent } from './cadastro-cursos/cadastro-cursos.compo
 import { CadastroInstrutorComponent } from './cadastro-instrutor/cadastro-instrutor.component';
 
 const routes: Routes = [
-  { path:'', redirectTo: 'cursos', pathMatch: 'full' },  // home page
+  { path:'', redirectTo: 'view', pathMatch: 'full' },  // home page
   { path:'view', component: EventViewerComponent  },
   //{ path:'edit', component: CronoEditComponent },
   { path:'lista', component: EventListComponent },

@@ -1,27 +1,17 @@
 <div class="container-fluid mb-5" id="calendar-page">
   <div class="row">
     <ul class="nav nav-pills mx-auto mt-4">
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#manha">Manhã</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#tarde">Tarde</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="pill" href="#noite">Noite</a>
+      <li *ngFor="let turno of turnos" class="nav-item">
+        <a class="nav-link" tabindex="{{turno.slug}}"
+          [class.active]="turno.slug === selectedTurno"
+          (click)="onSelectTurno(turno.slug)">{{turno.name}}</a>
       </li>
     </ul>
   </div>
   <div class="row">
-    <div class="tab-content mx-auto" style="width: 90%;">
-      <div class="tab-pane active container-fluid" id="manha">
-        <app-calendar-grid turno="manha"></app-calendar-grid>
-      </div>
-      <div class="tab-pane active container-fluid" id="tarde">
-        <app-calendar-grid turno="tarde"></app-calendar-grid>
-      </div>
-      <div class="tab-pane active container-fluid" id="noite">
-        <app-calendar-grid turno="noite"></app-calendar-grid>
+    <div class="tab-content mx-auto">
+      <div class="tab-pane active container-fluid">
+        <app-calendar-grid [turno]="selectedTurno"></app-calendar-grid>
       </div>
     </div>
   </div>

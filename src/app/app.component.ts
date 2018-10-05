@@ -12,6 +12,14 @@ export const DAY_IN_MSEC = 1000 * 60 * 60 * 24;
 export class AppComponent {
   public title: string = 'app';
   public diasSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+  public salas = [
+    { name: 'Sala 1', slug: 'sala1' },
+    { name: 'Sala 2', slug: 'sala2' },
+    { name: 'Sala 3', slug: 'sala3' },
+    { name: 'Sala 4', slug: 'sala4' },
+    { name: 'Sala 5', slug: 'sala5' },
+    { name: 'Sala 6', slug: 'sala6' }
+  ];
   public today: Date;
   public dom0: Date; // primeiro domingo antes de hoje
   public dom1: Date; // primeiro domingo após hoje
@@ -95,5 +103,18 @@ export class AppComponent {
     for (let i = 0; i < 7; i++) {
       this.weekDates.push(this.returnDate(this.dom0, i));
     }
+    console.log(this.weekDates);
   }
+
+  testEventDate(turma: Event, date: Date): boolean { // testa se uma turma ocorre numa data
+    return (new Date(turma.dataInicial) <= date) && (new Date(turma.dataFinal) >= date);
+  }
+  testEventSala(turma: Event, sala: any): boolean { // testa se uma turma ocorre numa sala
+    return (turma.sala == sala.replace(/\D*/g, ''));
+  }
+  testEventTurno(turma: Event, turno: string): boolean { // testa se uma turma ocorre num turno
+    let pattern: RegExp = new RegExp(turno+"\\b", "gi");
+    return pattern.test(turma.turno);
+  }
+
 }

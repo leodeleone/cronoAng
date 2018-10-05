@@ -1,0 +1,24 @@
+table.calendar-grid {
+  width: 810px; // small resolutions
+  border: none;
+  text-align: center;
+
+  th[scope=col] { // dias
+    width: 120px;
+    padding: .5rem;
+    line-height: 1.25rem;
+    vertical-align: middle;
+    font-size: 1.125rem;
+  }
+
+  th[scope=row] { // salas
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px; // fix later
+    height: 90px;
+    padding: 1rem;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}

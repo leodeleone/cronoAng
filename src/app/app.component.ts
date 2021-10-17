@@ -24,12 +24,12 @@ export class AppComponent {
   public dom0: Date; // primeiro domingo antes de hoje
   public dom1: Date; // primeiro domingo após hoje
   public weekPad: number; // semana relativa à atual
-  
+
   public events: Event[];
   public weekDates: Date[];
 
   constructor(private apiData: BackendApiService) {
-    this.today = new Date('2017-10-07');
+    this.today = new Date('2018-01-15');
     this.today.setHours(0);
     this.today.setMinutes(0);
     this.today.setSeconds(0);

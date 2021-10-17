@@ -25,6 +25,6 @@ export class CalendarGridComponent implements OnInit {
           && this.app.testEventSala(ev, sala)
           && this.app.testEventTurno(ev, turno);
     }, this);
-    return filtered.length == 1 ? filtered[0].curso : filtered.length;
+    return filtered.length == 1 ? filtered[0].curso : '-';
   }
 }
